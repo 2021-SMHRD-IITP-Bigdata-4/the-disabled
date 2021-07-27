@@ -6,7 +6,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
-<body> 이거 하고있는거 맞나요 왜 내꺼만 되죠
+<body> 이거 하고있는거 맞나요 왜 내꺼만 되죠 아우..
 
 </body>
 </html>
