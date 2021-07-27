@@ -6,7 +6,7 @@
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
-<body>	테스트용
+<body>	테스트용입니다요~
 
 </body>
 </html>
