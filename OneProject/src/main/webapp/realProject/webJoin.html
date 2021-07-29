@@ -45,12 +45,15 @@
             <div data-text-content="true" style="font-weight: bold; font-size: 36px; text-align: center;" class="">회원가입
             </div>
         </div>
+        
+                <!-- 회원가입 정보 보내기 -->
+        <form action = "JoinService" type = "post">
         <div data-obj-id="RdZqs" data-obj-type="element" data-text-editable="true" class=""
-            style="position: absolute; top: 233.004px; left: 426.516px; width: 346px; height: 40px;"><input type="text"
+            style="position: absolute; top: 233.004px; left: 426.516px; width: 346px; height: 40px;"><input type="text" name = "email"
                 data-min-width="60" data-min-height="30" data-text-content="true" value="가입할 이메일을 입력하시오."
                 style="color: rgb(94, 94, 94); font-size: 13px; text-align: left;" class=""></div>
         <div data-obj-id="aL0sZ" data-obj-type="element" data-text-editable="true" class=""
-            style="position: absolute; top: 322.012px; left: 426.527px; width: 345px; height: 40px;"><input type="text"
+            style="position: absolute; top: 322.012px; left: 426.527px; width: 345px; height: 40px;"><input type="text" name = "pw"
                 data-min-width="60" data-min-height="30" data-text-content="true" value="비밀번호를 입력하시오."
                 style="color: rgb(94, 94, 94); font-size: 13px; text-align: left;" class=""></div>
         <div data-obj-id="CoNMe" data-obj-type="element" data-text-editable="true" class=""
@@ -62,8 +65,7 @@
             <div data-text-content="true" style="font-size: 16px; text-align: center;" class="">관심지역</div>
         </div>
         
-        <!-- 회원가입 정보 보내기 -->
-        <form action = "JoinService" type = "post">
+
         <div data-obj-id="QRKEw" data-obj-type="element" data-text-editable="true" class=""
             style="position: absolute; top: 207px; left: 427.479px; width: 76px; height: 27px;">
             <div data-text-content="true" style="font-size: 14px; text-align: left; line-height: 2em;" class="">이메일
@@ -79,156 +81,84 @@
             <div data-text-content="true" style="font-size: 14px; text-align: left; line-height: 2em;" class="">비밀번호 확인
             </div>
         </div>
+        
         <div data-obj-type="group" data-obj-id="4p4no" class=""
             style="position: absolute; left: 417.598px; top: 615.707px; width: 94px; height: 157px;">
             <div data-obj-id="fRPen" data-obj-type="element" data-text-editable="true" class=""
-                style="position: absolute; top: 0px; left: 0px; width: 94px; height: 30.1875px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid #ccc; box-shadow: inset 0 1px 1px rgba(0,0,0,.075); background-color: rgb(255, 255, 255);line-height: 40px;"
-                    class=""> 시</div>
-                <div style="position: absolute; top: 50%; right:5px; margin-top:-12px; width: 15px; height: 15px;"
-                    class=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="32" height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 8.998,20l 13.966,0 c 0.286,0, 0.54-0.138, 0.72-0.352l 0.004,0.004c 0.39-0.434, 0.39-1.138,0-1.572L 16.69,10.326 c-0.39-0.434-1.022-0.434-1.41,0c-0.010,0.012-0.014,0.028-0.024,0.040L 8.272,18.080c-0.39,0.434-0.39,1.138,0,1.572 C 8.276,19.656, 8.28,19.658, 8.284,19.662C 8.466,19.87, 8.716,20, 8.998,20z">
-                            </path>
-                        </g>
-                    </svg></div>
-                <div style="position: absolute; top: 50%; right:5px; width: 15px; height: 15px;" class=""><svg
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
-                        height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 16.682,19.674c 0.010-0.012, 0.014-0.028, 0.024-0.040l 6.982-7.714c 0.39-0.434, 0.39-1.138,0-1.572 c-0.004-0.004-0.008-0.006-0.012-0.008C 23.496,10.13, 23.244,10, 22.964,10L 8.998,10 c-0.286,0-0.54,0.138-0.722,0.352L 8.272,10.348 c-0.39,0.434-0.39,1.138,0,1.572l 6.998,7.754C 15.66,20.108, 16.292,20.108, 16.682,19.674z">
-                            </path>
-                        </g>
-                    </svg></div>
+                style="position: absolute; top: 0px; left: 0px; width: 94px; height: 0px;">
+				 <select>
+                	<option>광주광역시</option>
+                	<option>광주광역시</option>
+                	<option>부산광역시</option>
+                	<option>인천광역시</option>
+                	<option>울산광역시</option>
+                </select>
             </div>
             <div data-obj-id="Nqtj3" data-obj-type="element" data-text-editable="true" class=""
                 style="position: absolute; top: 33px; left: 0px; width: 93px; height: 124px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid rgb(204, 204, 204); line-height: 40px; box-shadow: rgba(0, 0, 0, 0.309804) 3px 3px 10px 0px; background-color: rgb(255, 255, 255);"
-                    class="" spellcheck="false"></div>
+
             </div>
-            <div data-obj-id="gnFhR" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 39.531px; left: 5.64px; width: 74.5733px; height: 20.8438px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">광주광역시</div>
-            </div>
-            <div data-obj-id="0q9x2" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 59px; left: 4px; width: 74.5733px; height: 20.8438px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">대전광역시</div>
-            </div>
-            <div data-obj-id="5BoCN" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 101px; left: 4px; width: 74.5733px; height: 20.8438px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">제주특별시</div>
-            </div>
-            <div data-obj-id="SYAuY" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 80px; left: 4px; width: 74.5733px; height: 20.8438px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">대구광역<span
-                        style="text-decoration-line: underline;">시</span></div>
-            </div>
+
+
         </div>
         <div data-obj-type="group" data-obj-id="gxXfz" class=""
             style="position: absolute; left: 639.59px; top: 618.949px; width: 94px; height: 158px;">
             <div data-obj-id="lhU5d" data-obj-type="element" data-text-editable="true" class=""
                 style="position: absolute; top: 0px; left: 0px; width: 94px; height: 30px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid #ccc; box-shadow: inset 0 1px 1px rgba(0,0,0,.075); background-color: rgb(255, 255, 255);line-height: 40px;"
-                    class="">동</div>
-                <div style="position: absolute; top: 50%; right:5px; margin-top:-12px; width: 15px; height: 15px;"
-                    class=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="32" height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 8.998,20l 13.966,0 c 0.286,0, 0.54-0.138, 0.72-0.352l 0.004,0.004c 0.39-0.434, 0.39-1.138,0-1.572L 16.69,10.326 c-0.39-0.434-1.022-0.434-1.41,0c-0.010,0.012-0.014,0.028-0.024,0.040L 8.272,18.080c-0.39,0.434-0.39,1.138,0,1.572 C 8.276,19.656, 8.28,19.658, 8.284,19.662C 8.466,19.87, 8.716,20, 8.998,20z">
-                            </path>
-                        </g>
-                    </svg></div>
-                <div style="position: absolute; top: 50%; right:5px; width: 15px; height: 15px;" class=""><svg
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
-                        height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 16.682,19.674c 0.010-0.012, 0.014-0.028, 0.024-0.040l 6.982-7.714c 0.39-0.434, 0.39-1.138,0-1.572 c-0.004-0.004-0.008-0.006-0.012-0.008C 23.496,10.13, 23.244,10, 22.964,10L 8.998,10 c-0.286,0-0.54,0.138-0.722,0.352L 8.272,10.348 c-0.39,0.434-0.39,1.138,0,1.572l 6.998,7.754C 15.66,20.108, 16.292,20.108, 16.682,19.674z">
-                            </path>
-                        </g>
-                    </svg></div>
+				 <select>
+                	<option>화정동</option>
+                	<option>쌍촌동</option>
+                	<option>용봉동</option>
+                	<option>금호동</option>
+                	<option>화순읍</option>
+                </select>
+
             </div>
             <div data-obj-id="qvG7A" data-obj-type="element" data-text-editable="true" class=""
                 style="position: absolute; top: 35px; left: 0px; width: 94px; height: 123px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid rgb(204, 204, 204); line-height: 40px; box-shadow: rgba(0, 0, 0, 0.309804) 3px 3px 10px 0px; background-color: rgb(255, 255, 255);"
-                    class=""></div>
+
             </div>
             <div data-obj-id="957iu" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 35px; left: 3px; width: 74px; height: 28px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">동명동</div>
-            </div>
-            <div data-obj-id="DB9XX" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 62.5px; left: 2px; width: 75px; height: 28px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">화정동</div>
-            </div>
-            <div data-obj-id="Lcnj8" data-obj-type="element" data-text-editable="true"
-                style="position: absolute; top: 90px; left: 2px; width: 75px; height: 30px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">금호동</div>
+
             </div>
         </div>
         <div data-obj-type="group" data-obj-id="smxMd" class=""
             style="position: absolute; left: 530.605px; top: 613.695px; width: 94px; height: 159px;">
             <div data-obj-id="tMMng" data-obj-type="element" data-text-editable="true" class=""
                 style="position: absolute; top: 0px; left: 0px; width: 94px; height: 30.2308px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid #ccc; box-shadow: inset 0 1px 1px rgba(0,0,0,.075); background-color: rgb(255, 255, 255);line-height: 40px;"
-                    class=""> 구</div>
-                <div style="position: absolute; top: 50%; right:5px; margin-top:-12px; width: 15px; height: 15px;"
-                    class=""><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        width="32" height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 8.998,20l 13.966,0 c 0.286,0, 0.54-0.138, 0.72-0.352l 0.004,0.004c 0.39-0.434, 0.39-1.138,0-1.572L 16.69,10.326 c-0.39-0.434-1.022-0.434-1.41,0c-0.010,0.012-0.014,0.028-0.024,0.040L 8.272,18.080c-0.39,0.434-0.39,1.138,0,1.572 C 8.276,19.656, 8.28,19.658, 8.284,19.662C 8.466,19.87, 8.716,20, 8.998,20z">
-                            </path>
-                        </g>
-                    </svg></div>
-                <div style="position: absolute; top: 50%; right:5px; width: 15px; height: 15px;" class=""><svg
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32"
-                        height="32" viewBox="0 0 32 32" fill="#000000" data-svg-content="true">
-                        <g>
-                            <path
-                                d="M 16.682,19.674c 0.010-0.012, 0.014-0.028, 0.024-0.040l 6.982-7.714c 0.39-0.434, 0.39-1.138,0-1.572 c-0.004-0.004-0.008-0.006-0.012-0.008C 23.496,10.13, 23.244,10, 22.964,10L 8.998,10 c-0.286,0-0.54,0.138-0.722,0.352L 8.272,10.348 c-0.39,0.434-0.39,1.138,0,1.572l 6.998,7.754C 15.66,20.108, 16.292,20.108, 16.682,19.674z">
-                            </path>
-                        </g>
-                    </svg></div>
+
+				 <select>
+                	<option>동구</option>
+                	<option>북구</option>
+                	<option>남구</option>
+                	<option>서구</option>
+                	<option>광산구</option>
+                </select>
+
             </div>
             <div data-obj-id="TN02z" data-obj-type="element" data-text-editable="true" class=""
                 style="position: absolute; top: 32px; left: 0px; width: 94px; height: 127px;">
-                <div data-text-content="true" data-min-width="80" data-min-height="30"
-                    style="border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; border: 1px solid rgb(204, 204, 204); line-height: 40px; box-shadow: rgba(0, 0, 0, 0.309804) 3px 3px 10px 0px; background-color: rgb(255, 255, 255);"
-                    class=""></div>
+
             </div>
             <div data-obj-id="Kz3PR" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 39.82px; left: 5.625px; width: 74px; height: 20.1538px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">동구</div>
             </div>
             <div data-obj-id="shACk" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 59.973px; left: 4.625px; width: 75px; height: 20px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">서구</div>
             </div>
             <div data-obj-id="ZswrR" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 80.127px; left: 4.625px; width: 74px; height: 20.1538px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">남구</div>
             </div>
             <div data-obj-id="u9SIX" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 99.406px; left: 5px; width: 74px; height: 21.1615px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">북구</div>
             </div>
             <div data-obj-id="oAyV6" data-obj-type="element" data-text-editable="true"
                 style="position: absolute; top: 120.562px; left: 4.125px; width: 75px; height: 21.1615px;" class="">
-                <div data-text-content="true" style="font-size: 14px; line-height: 1.9em;" class="">광산구</div>
             </div>
         </div>
         <div data-obj-id="tgmOz" data-obj-type="element" data-text-editable="true" class=""
-            style="position: absolute; top: 503.598px; left: 425.684px; width: 345px; height: 40px;"><input type="text"
+            style="position: absolute; top: 503.598px; left: 425.684px; width: 345px; height: 40px;"><input type="text" name = "nickName"
                 data-min-width="60" data-min-height="30" data-text-content="true" value="닉네임을 입력하시오."
                 style="color: rgb(94, 94, 94); font-size: 13px; text-align: left;" class=""></div>
         <div data-obj-id="53qZO" data-obj-type="element" data-text-editable="true" class=""
@@ -248,8 +178,8 @@
             <div data-text-content="true" style="background-color: rgb(224, 224, 224); text-align: center;"
                 spellcheck="false" class=""></div>
         </div>
+        </form>
 
-</form>
 
 
 
