@@ -124,4 +124,7 @@ alter table building_enroll add fac_no number(20) not null;
 alter table building_enroll
 add constraint building_enroll_fac_no_fk3 foreign key(fac_no) references safe_facility(fac_no);
 
+alter table ilbi_member
+add mem_zone varchar2(80) not null;
+
 commit;
