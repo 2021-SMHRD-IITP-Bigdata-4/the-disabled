@@ -4,13 +4,13 @@ public class WebMemberDTO {
 
 	private String email;
 	private String pw;
-	private String nickName;
+	private String nick;
 	private String areaInterest;
 	
 	public WebMemberDTO(String email, String pw, String nickName, String areaInterest) {
 		this.email = email;
 		this.pw = pw;
-		this.nickName = nickName;
+		this.nick = nick;
 		this.areaInterest = areaInterest;
 	}
 	public String getEmail() {
@@ -26,10 +26,10 @@ public class WebMemberDTO {
 		this.pw = pw;
 	}
 	public String getNickName() {
-		return nickName;
+		return nick;
 	}
-	public void setNickName(String nickName) {
-		this.nickName = nickName;
+	public void setNick(String nick) {
+		this.nick = nick;
 	}
 	public String getAreaInterest() {
 		return areaInterest;
