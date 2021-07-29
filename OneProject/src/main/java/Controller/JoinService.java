@@ -15,6 +15,14 @@ public class JoinService extends HttpServlet {
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		request.setCharacterEncoding("EUC-KR");
+		
+		String email = request.getParameter("email");
+		String pw = request.getParameter("pw");
+		String nick = request.getParameter("nick");
+		String areaInterest = request.getParameter("areaInterest1")+request.getParameter("areaInterest2")+request.getParameter("areaInterest3");
+		
+		System.out.print(areaInterest);
 	
 	
 	}
