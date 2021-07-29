@@ -30,7 +30,7 @@ CREATE SEQUENCE mem_no_seq
 START WITH 1
 INCREMENT BY 1;
 
-3. 편의시설테이블 만들기와 시퀀스 생성하지 말아요 제발 하지 말아요.
+3. 편의시설테이블 만들기와 시퀀스 생성
 create table safe_facility(
 fac_no number(20) not null,
 bui_no number(20) not null,
