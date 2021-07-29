@@ -30,24 +30,7 @@ CREATE SEQUENCE mem_no_seq
 START WITH 1
 INCREMENT BY 1;
 
-3. 편의시설테이블 만들기와 시퀀스 생성
-create table safe_facility(
-fac_no number(20) not null,
-bui_no number(20) not null,
-fac_ele varchar2(2),
-fac_angle varchar2(2),
-fac_block varchar2(2),
-fac_hand varchar2(2),
-fac_auto varchar2(2),
-fac_car varchar2(2),
-fac_rest varchar2(2),
-constraint safe_facility_pk primary key(fac_no),
-constraint safe_facility_bui_no_fk foreign key(bui_no) references building_enroll(bui_no)
-);
 
-CREATE SEQUENCE fac_no_seq
-START WITH 1
-INCREMENT BY 1;
 
 4. 포인트 테이블 만들기
 create table point_tb(
@@ -120,9 +103,7 @@ alter table building_enroll
 add constraint building_enroll_bui_s_no_fk1 foreign key(bui_s_no) references build_search(bui_s_no);
 alter table building_enroll
 add constraint building_enroll_mem_no_fk2 foreign key(mem_no) references ilbi_member(mem_no);
-alter table building_enroll add fac_no number(20) not null;
-alter table building_enroll
-add constraint building_enroll_fac_no_fk3 foreign key(fac_no) references safe_facility(fac_no);
+
 
 alter table ilbi_member
 add mem_zone varchar2(80) not null;
