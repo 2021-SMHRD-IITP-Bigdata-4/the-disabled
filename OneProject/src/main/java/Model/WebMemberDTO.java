@@ -7,11 +7,16 @@ public class WebMemberDTO {
 	private String nick;
 	private String areaInterest;
 	
-	public WebMemberDTO(String email, String pw, String nickName, String areaInterest) {
+	public WebMemberDTO(String email, String pw, String nick, String areaInterest) {
 		this.email = email;
 		this.pw = pw;
 		this.nick = nick;
 		this.areaInterest = areaInterest;
+	}
+	public WebMemberDTO(String email, String pw) {
+		this.email = email;
+		this.pw = pw;
+
 	}
 	public String getEmail() {
 		return email;

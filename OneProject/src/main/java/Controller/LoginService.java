@@ -6,13 +6,14 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import Model.WebMemberDAO;
 import Model.WebMemberDTO;
 
 
-@WebServlet("/JoinService")
-public class JoinService extends HttpServlet {
+@WebServlet("/LoginService")
+public class LoginService extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 
@@ -22,20 +23,21 @@ public class JoinService extends HttpServlet {
 		
 		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
-		String nick = request.getParameter("nick");
-		String areaInterest = request.getParameter("areaInterest1")+request.getParameter("areaInterest2")+request.getParameter("areaInterest3");
 		
 		
 		WebMemberDAO dao = new WebMemberDAO();
-		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);		
+		WebMemberDTO dto = new WebMemberDTO(email, pw);		
+
+	
+		WebMemberDTO loginDto = dao.login(dto);
 		
-		
-		int cnt = dao.join(dto);
-		
-		if(cnt >0) {
-			System.out.println("저장성공");
+		if(loginDto != null) {
+			System.out.print("로그인 성공!");
+			
+			HttpSession session = request.getSession();
+			session.setAttribute("info", loginDto);
 		}else {
-			System.out.println("ㅅㅂ");
+			System.out.print("로그인 실패");
 		}
 		
 		response.sendRedirect("webMain.html");
