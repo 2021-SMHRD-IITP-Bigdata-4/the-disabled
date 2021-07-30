@@ -49,7 +49,7 @@ public class WebMemberDAO {
 	public int join(WebMemberDTO dto) {
 		conn();
 		try {
-			String sql = "insert into web_member values(?,?,?,?)";
+			String sql = "insert into ilbi_member values(mem_no_seq.nextval,?,?,?,?)";
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getEmail());
 			psmt.setString(2, dto.getPw());

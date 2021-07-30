@@ -7,6 +7,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import Model.WebMemberDAO;
+import Model.WebMemberDTO;
+
 
 @WebServlet("/JoinService")
 public class JoinService extends HttpServlet {
@@ -22,9 +25,19 @@ public class JoinService extends HttpServlet {
 		String nick = request.getParameter("nick");
 		String areaInterest = request.getParameter("areaInterest1")+request.getParameter("areaInterest2")+request.getParameter("areaInterest3");
 		
-		System.out.print(areaInterest);
-	
-	
+		System.out.print(email);
+		
+		WebMemberDAO dao = new WebMemberDAO();
+		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);		
+		
+		
+		int cnt = dao.join(dto);
+		
+		if(cnt >0) {
+			System.out.println("저장성공");
+		}else {
+			System.out.println("ㅅㅂ");
+		}
 	}
 
 }
