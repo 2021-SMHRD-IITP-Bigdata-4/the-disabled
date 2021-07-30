@@ -66,4 +66,30 @@ public class WebMemberDAO {
 		}
 		return cnt;
 	}
+	
+	public WebMemberDTO login(WebMemberDTO dto) {
+		conn();
+		
+		try {
+			String sql = "select * from web_member where email = ? and pw = ?";
+			psmt = conn.prepareStatement(sql);
+			psmt.setString(1, dto.getEmail());
+			psmt.setString(2, dto.getPw());
+			rs = psmt.executeQuery();
+
+			if(rs.next()) {
+				String email = rs.getString(2);
+				String pw = rs.getString(2);
+				String tel = rs.getString(3);
+				String addr = rs.getString(4);
+				loginDto = new WebMemberDTO(email, pw, tel, addr);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			close();
+		}
+		return loginDto;
+	}
+	
 }

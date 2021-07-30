@@ -13,6 +13,11 @@ public class WebMemberDTO {
 		this.nick = nick;
 		this.areaInterest = areaInterest;
 	}
+	public WebMemberDTO(String email, String pw) {
+		this.email = email;
+		this.pw = pw;
+
+	}
 	public String getEmail() {
 		return email;
 	}

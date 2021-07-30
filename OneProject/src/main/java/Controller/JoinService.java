@@ -25,7 +25,6 @@ public class JoinService extends HttpServlet {
 		String nick = request.getParameter("nick");
 		String areaInterest = request.getParameter("areaInterest1")+request.getParameter("areaInterest2")+request.getParameter("areaInterest3");
 		
-		System.out.print(email);
 		
 		WebMemberDAO dao = new WebMemberDAO();
 		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);		
@@ -38,6 +37,9 @@ public class JoinService extends HttpServlet {
 		}else {
 			System.out.println("¤µ¤²");
 		}
+		
+		response.sendRedirect("webMain.html");
+
 	}
 
 }
