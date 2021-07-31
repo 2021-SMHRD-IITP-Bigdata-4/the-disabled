@@ -42,7 +42,7 @@ public class JoinService extends HttpServlet {
 		}else {
 			System.out.println("¤µ¤²");
 		}
-		response.sendRedirect("src/main/Webapp/iLBiMain.jsp");
+		response.sendRedirect("iLBiMain.jsp");
 
 	}
 
