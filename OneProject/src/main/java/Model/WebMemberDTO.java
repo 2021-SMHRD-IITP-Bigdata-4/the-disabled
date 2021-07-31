@@ -30,7 +30,7 @@ public class WebMemberDTO {
 	public void setPw(String pw) {
 		this.pw = pw;
 	}
-	public String getNickName() {
+	public String getNick() {
 		return nick;
 	}
 	public void setNick(String nick) {

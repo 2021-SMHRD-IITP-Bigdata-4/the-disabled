@@ -53,7 +53,7 @@ public class WebMemberDAO {
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getEmail());
 			psmt.setString(2, dto.getPw());
-			psmt.setString(3, dto.getNickName());
+			psmt.setString(3, dto.getNick());
 			psmt.setString(4, dto.getAreaInterest());
 
 			cnt = psmt.executeUpdate();

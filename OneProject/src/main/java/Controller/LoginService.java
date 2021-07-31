@@ -40,7 +40,8 @@ public class LoginService extends HttpServlet {
 			System.out.print("로그인 실패");
 		}
 		
-		response.sendRedirect("iLBiMain.html");
+		response.sendRedirect("iLBiMain.jsp");
+		
 
 	}
 

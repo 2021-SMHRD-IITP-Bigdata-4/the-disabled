@@ -77,6 +77,7 @@
         <h2 class="u-text u-text-default u-text-1">회원가입</h2>
         
         <div class="u-form u-form-1">
+        
           <form action="JoinService" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
             <div class="u-form-email u-form-group u-form-group-1">
               <label for="email-709a" class="u-form-control-hidden u-label"></label>
@@ -98,9 +99,9 @@
               <label for="select-8ca5" class="u-form-control-hidden u-label"></label>
               <div class="u-form-select-wrapper">
                 <select id="select-8ca5" name="areaInterest1" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="Item 1">광주광역시</option>
-                  <option value="Item 2">전라남도</option>
-                  <option value="Item 3">전라북도</option>
+                  <option value="광주광역시">광주광역시</option>
+                  <option value="전라남도">전라남도</option>
+                  <option value="전라북도">전라북도</option>
                 </select>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
               </div>
@@ -109,9 +110,9 @@
               <label for="select-7483" class="u-form-control-hidden u-label"></label>
               <div class="u-form-select-wrapper">
                 <select id="select-7483" name="areaInterest2" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="Item 1">북구</option>
-                  <option value="Item 2">남구</option>
-                  <option value="Item 3">서구</option>
+                  <option value="북구">북구</option>
+                  <option value="남구">남구</option>
+                  <option value="서구">서구</option>
                 </select>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
               </div>
@@ -120,25 +121,21 @@
               <label for="select-5d68" class="u-form-control-hidden u-label"></label>
               <div class="u-form-select-wrapper">
                 <select id="select-5d68" name="areaInterest3" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="Item 1">용봉동</option>
-                  <option value="Item 2">일곡동</option>
-                  <option value="Item 3">삼각동</option>
+                  <option value="용봉동">용봉동</option>
+                  <option value="일곡동">일곡동</option>
+                  <option value="삼각동">삼각동</option>
                 </select>
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
               </div>
             </div>
-            <div class="u-align-center u-form-group u-form-submit u-form-group-8">
-              <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+            <div class="u-align-center u-form-group u-form-group-8">
+              <input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit">
             </div>
-            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-            <input type="hidden" value="" name="recaptchaResponse">
+
           </form>
         </div>
       </div>
     </section>
-    
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4035"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1">우린ㄴ<br>일비
