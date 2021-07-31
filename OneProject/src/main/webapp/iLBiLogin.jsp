@@ -90,8 +90,7 @@
               <label for="checkbox-a30d" class="u-label">Remember me</label>
             </div>
             <div class="u-align-center u-form-group u-form-submit">
-              <a href="#" class="u-btn u-btn-submit u-button-style u-btn-1">Login</a>
-              <input type="submit" value="submit" class="u-form-control-hidden">
+              <input type="submit" value="로그인" class="u-btn u-btn-submit u-button-style u-btn-1">
             </div>
             <input type="hidden" value="" name="recaptchaResponse">
           </form>

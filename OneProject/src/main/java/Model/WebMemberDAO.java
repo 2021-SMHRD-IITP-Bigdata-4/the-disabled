@@ -71,7 +71,7 @@ public class WebMemberDAO {
 		conn();
 		
 		try {
-			String sql = "select * from web_member where email = ? and pw = ?";
+			String sql = "select * from ilbi_member where email = ? and pw = ?";
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getEmail());
 			psmt.setString(2, dto.getPw());
@@ -79,10 +79,10 @@ public class WebMemberDAO {
 
 			if(rs.next()) {
 				String email = rs.getString(2);
-				String pw = rs.getString(2);
-				String tel = rs.getString(3);
-				String addr = rs.getString(4);
-				loginDto = new WebMemberDTO(email, pw, tel, addr);
+				String pw = rs.getString(3);
+				String nick = rs.getString(4);
+				String areaInterest = rs.getString(5);
+				loginDto = new WebMemberDTO(email, pw, nick, areaInterest);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

@@ -26,21 +26,25 @@ public class LoginService extends HttpServlet {
 		
 		
 		WebMemberDAO dao = new WebMemberDAO();
-		WebMemberDTO dto = new WebMemberDTO(email, pw);		
-
-	
+		WebMemberDTO dto = new WebMemberDTO(email, pw);
 		WebMemberDTO loginDto = dao.login(dto);
+
+		System.out.println(email);
+		System.out.println(loginDto);
 		
 		if(loginDto != null) {
 			System.out.print("로그인 성공!");
 			
 			HttpSession session = request.getSession();
 			session.setAttribute("info", loginDto);
+			response.sendRedirect("iLBiMain.jsp");
+
 		}else {
 			System.out.print("로그인 실패");
+			response.sendRedirect("iLBiLogin.jsp");
+
 		}
 		
-		response.sendRedirect("iLBiMain.jsp");
 		
 
 	}
