@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
@@ -32,12 +32,10 @@
     <meta property="og:title" content="iLBiMain">
     <meta property="og:type" content="website">
   </head>
-  <%String email = (String)session.getAttribute("email");   /*여기에 세션을 이용해 값을 넣어주자*/
-	%>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.jsp" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
-            <p class="u-text u-text-1"><%=email %></p>
+            <p class="u-text u-text-1"></p>
             <p class="u-text u-text-2">알림어어어어어엉</p><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="-43 0 512 512" style="width: 1em; height: 1em;"><path d="m413.417969 360.8125c-32.253907-27.265625-50.75-67.117188-50.75-109.335938v-59.476562c0-75.070312-55.765625-137.214844-128-147.625v-23.042969c0-11.796875-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.535156-21.332031 21.332031v23.042969c-72.257812 10.410156-128 72.554688-128 147.625v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.105469-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.246093-13.25-28.519531zm0 0"></path><path d="m213.332031 512c38.636719 0 70.957031-27.542969 78.378907-64h-156.757813c7.425781 36.457031 39.746094 64 78.378906 64zm0 0"></path></svg><img></span>
           </div>
         </div>
@@ -238,7 +236,7 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
       </p>
       <a class="u-link" href="https://nicepage.com/static-site-generator" target="_blank">
         <span>Static Site Generator</span>
-      </a>
+      </a>. 
     </section>
   </body>
 </html>
