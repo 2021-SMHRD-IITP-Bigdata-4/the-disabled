@@ -129,7 +129,12 @@
               </div>
             </div>
             <div class="u-align-center u-form-group u-form-group-8">
+<<<<<<< HEAD
             	<input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit"></a>
+=======
+            <a href = "iLBiMain.jsp">회원가입</a>
+              <input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit" >
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-IITP-Bigdata-4/the-disabled.git
             </div>
 
           </form>
