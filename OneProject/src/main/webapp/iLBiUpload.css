@@ -1,0 +1,21 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 572px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 313px;
+  width: 300px;
+  margin: 104px auto 0;
+}
+
+.u-section-1 .u-custom-html-1 {
+  margin-bottom: 57px;
+  margin-top: 33px;
+  min-height: 65px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+  }
+}
