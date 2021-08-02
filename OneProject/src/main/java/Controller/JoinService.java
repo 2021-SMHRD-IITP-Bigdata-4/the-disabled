@@ -43,12 +43,12 @@ public class JoinService extends HttpServlet {
 			System.out.println("저장성공");
 			HttpSession session = request.getSession();
 			session.setAttribute("email", email);
-
+			response.sendRedirect("iLBiMain.jsp");
 		} else {
-			System.out.println("ㅅㅂ");
+			System.out.println("ㅅㅍ");
+			response.sendRedirect("iLBiNotice.jsp");
 		}
-
-		response.sendRedirect("iLBiMain.jsp");
+	
 
 	}
 
