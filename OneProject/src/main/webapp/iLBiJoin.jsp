@@ -78,7 +78,7 @@
         
         <div class="u-form u-form-1">
         
-          <form action="JoinService" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
+          <form action="JoinService.do" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;">
             <div class="u-form-email u-form-group u-form-group-1">
               <label for="email-709a" class="u-form-control-hidden u-label"></label>
               <input type="email" placeholder="가입할 이메일을 입력하시오." id="email-709a" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="" >
@@ -129,7 +129,7 @@
               </div>
             </div>
             <div class="u-align-center u-form-group u-form-group-8">
-              <input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit">
+            	<input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit"></a>
             </div>
 
           </form>
