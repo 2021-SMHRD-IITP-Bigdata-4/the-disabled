@@ -1,3 +1,5 @@
+<%@page import="Model.WebMemberDAO"%>
+<%@page import="Model.WebMemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
 	pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -30,7 +32,19 @@
 <body class="u-body">
 
 	<%
-		
+	request.setCharacterEncoding("EUC-KR");
+	String email = request.getParameter("email");
+	String pw = request.getParameter("pw");
+	String nick = request.getParameter("nick");
+	String areaInterest = request.getParameter("areaInterest");
+	
+	WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);
+	WebMemberDAO dao = new WebMemberDAO();
+	
+	HttpSession httpsess = request.getSession();
+	httpsess.setAttribute("email", email);
+	response.sendRedirect("iLBiMain.jsp");
+	
 	%>
 
 	<header class="u-clearfix u-header u-header" id="sec-0b40">
