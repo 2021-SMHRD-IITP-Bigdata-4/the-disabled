@@ -16,7 +16,17 @@
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.21.3, nicepage.com">
     
+    
+    
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    
+    
+    
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -31,11 +41,13 @@
         <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.html" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
             <p class="u-text u-text-1"></p>
-            <p class="u-text u-text-2">알림어어어어어엉</p><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="-43 0 512 512" style="width: 1em; height: 1em;"><path d="m413.417969 360.8125c-32.253907-27.265625-50.75-67.117188-50.75-109.335938v-59.476562c0-75.070312-55.765625-137.214844-128-147.625v-23.042969c0-11.796875-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.535156-21.332031 21.332031v23.042969c-72.257812 10.410156-128 72.554688-128 147.625v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.105469-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.246093-13.25-28.519531zm0 0"></path><path d="m213.332031 512c38.636719 0 70.957031-27.542969 78.378907-64h-156.757813c7.425781 36.457031 39.746094 64 78.378906 64zm0 0"></path></svg><img></span>
+            <p class="u-text u-text-2">
+              <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiAlrim.html" data-page-id="547204823">알림어어어어어엉</a>
+            </p><span class="u-file-icon u-icon u-icon-1"><img src="images/KakaoTalk_20210803_144115333.png" alt=""></span>
           </div>
         </div>
         <h1 class="u-text u-title u-text-3">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiMain.html" data-page-id="361022437">i​LBi</a>
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-2" href="iLBiMain.html" data-page-id="361022437">i​LBi</a>
         </h1>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -49,10 +61,8 @@
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
@@ -61,9 +71,33 @@
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-2">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
 </li></ul>
               </div>
@@ -75,10 +109,20 @@
     <section id="carousel_4662" class="u-carousel u-slide u-valign-middle u-block-4b6b-1" data-u-ride="carousel" data-interval="5000">
       <ol class="u-absolute-hcenter u-carousel-indicators u-block-4b6b-2">
         <li data-u-target="#carousel_4662" data-u-slide-to="0" class="u-active u-grey-30"></li>
+        <li data-u-target="#carousel_4662" class="u-grey-30" data-u-slide-to="1"></li>
+        <li data-u-target="#carousel_4662" class="u-grey-30" data-u-slide-to="2"></li>
       </ol>
       <div class="u-carousel-inner" role="listbox">
         <div class="u-active u-align-center u-carousel-item u-clearfix u-section-1-1">
           <img class="u-absolute-hcenter u-expanded-height u-image u-image-default u-image-1" src="images/2.jpg" alt="" data-image-width="1600" data-image-height="538">
+          <p class="u-large-text u-text u-text-variant u-text-1">누구나 사회를 변화시킬 수 있습니다.</p>
+        </div>
+        <div class="u-align-center u-carousel-item u-clearfix u-section-1-2">
+          <img class="u-absolute-hcenter u-expanded-height u-image u-image-default u-image-1" src="images/361022437-0.jpeg" alt="" data-image-width="1500" data-image-height="1000">
+          <p class="u-large-text u-text u-text-variant u-text-1">누구나 사회를 변화시킬 수 있습니다.</p>
+        </div>
+        <div class="u-align-center u-carousel-item u-clearfix u-section-1-3">
+          <img class="u-absolute-hcenter u-expanded-height u-image u-image-default u-image-1" src="images/e8fb27c1839ebcbee52cac42472bc12ef64c6e33134aec5c2ced1a126a3bd390541a34f43e9a783a3f912100586ca06a16286d235b9ffbb68f48ce_1280.jpg" alt="" data-image-width="1280" data-image-height="800">
           <p class="u-large-text u-text u-text-variant u-text-1">누구나 사회를 변화시킬 수 있습니다.</p>
         </div>
       </div>
@@ -119,22 +163,22 @@
         <h3 class="u-text u-text-1">진행중인 이벤트</h3>
         <a href="iLBiNotice.html" data-page-id="3083403229" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-btn-1">더보기</a>
         <div class="u-expanded-width u-gallery u-layout-horizontal u-lightbox u-no-transition u-show-text-on-hover u-width-fixed u-gallery-1">
-          <div class="u-gallery-inner"><div class="u-effect-fade u-gallery-item u-gallery-item-1"><div class="u-back-slide"><img class="u-back-image u-back-image-1" src="images/3.svg">
+          <div class="u-gallery-inner"><div class="u-effect-fade u-gallery-item u-gallery-item-1" data-href="iLBiNoticeClick.html" data-page-id="2850911576"><div class="u-back-slide"><img class="u-back-image u-back-image-1" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-1"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-2"><div class="u-back-slide"><img class="u-back-image u-back-image-2" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-2" data-href="iLBiNoticeClick.html" data-page-id="2850911576"><div class="u-back-slide"><img class="u-back-image u-back-image-2" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-2"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-3"><div class="u-back-slide"><img class="u-back-image u-back-image-3" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-3" data-href="iLBiNoticeClick.html" data-page-id="2850911576"><div class="u-back-slide"><img class="u-back-image u-back-image-3" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-3"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image u-back-image-4" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image u-back-image-4" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-4"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image u-back-image-5" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image u-back-image-5" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-5"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image u-back-image-6" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image u-back-image-6" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-6"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
 </div></div>
@@ -168,24 +212,24 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     <section class="u-align-center u-clearfix u-white u-section-6" id="carousel_3093">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h3 class="u-text u-text-1">장애인을 위한 제도</h3>
-        <a href="iLBiNotice.html" data-page-id="3083403229" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-btn-1">더보기</a>
+        <a href="iLBiSupport.html" data-page-id="97236605" class="u-active-none u-border-2 u-border-palette-1-base u-btn u-btn-rectangle u-button-style u-hover-none u-none u-radius-0 u-btn-1">더보기</a>
         <div class="u-expanded-width u-gallery u-layout-horizontal u-lightbox u-no-transition u-show-text-on-hover u-width-fixed u-gallery-1">
-          <div class="u-gallery-inner"><div class="u-effect-fade u-gallery-item u-gallery-item-1"><div class="u-back-slide"><img class="u-back-image u-back-image-1" src="images/3.svg">
+          <div class="u-gallery-inner"><div class="u-effect-fade u-gallery-item u-gallery-item-1" data-href="iLBiSupportClick.html" data-page-id="558508947"><div class="u-back-slide"><img class="u-back-image u-back-image-1" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-1"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-2"><div class="u-back-slide"><img class="u-back-image u-back-image-2" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-2" data-href="iLBiSupportClick.html" data-page-id="558508947"><div class="u-back-slide"><img class="u-back-image u-back-image-2" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-2"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-3"><div class="u-back-slide"><img class="u-back-image u-back-image-3" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-3" data-href="iLBiSupportClick.html" data-page-id="558508947"><div class="u-back-slide"><img class="u-back-image u-back-image-3" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-3"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image u-back-image-4" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-4"><div class="u-back-slide"><img class="u-back-image u-back-image-4" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-4"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image u-back-image-5" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-5"><div class="u-back-slide"><img class="u-back-image u-back-image-5" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-5"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
-</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image u-back-image-6" src="images/3.svg">
+</div><div class="u-effect-fade u-gallery-item u-gallery-item-6"><div class="u-back-slide"><img class="u-back-image u-back-image-6" src="images/6.svg">
 </div><div class="u-over-slide u-shading u-over-slide-6"><h3 class="u-gallery-heading"></h3><p class="u-gallery-text"></p>
 </div>
 </div></div>
@@ -221,8 +265,8 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4035"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">우린ㄴ<br>일비
-        </p>
+        <h5 class="u-text u-text-1">iLBi</h5>
+        <p class="u-small-text u-text u-text-variant u-text-2"> Sin Myeongjin |&nbsp;Kim Minjoong | Park Jihoon | Kim Yuri</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-mockup" target="_blank">
