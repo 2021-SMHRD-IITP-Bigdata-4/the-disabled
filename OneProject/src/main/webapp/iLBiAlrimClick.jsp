@@ -1,23 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="iLBi">
+    <meta name="keywords" content="i​LBi">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-    <title>iLBiJoin</title>
+    <title>iLBiAlrimClick</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
-<link rel="stylesheet" href="iLBiJoin.css" media="screen">
+<link rel="stylesheet" href="iLBiAlrimClick.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 3.21.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
-    
-    
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
@@ -25,7 +22,7 @@
 		"name": "iLBi"
 }</script>
     <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="iLBiJoin">
+    <meta property="og:title" content="iLBiAlrimClick">
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
@@ -72,75 +69,7 @@
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
-    <section class="u-clearfix u-section-1" id="iLBiMain">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">회원가입</h2>
-        <div class="u-form u-form-1">
-        
-        
-          <form action="JoinService" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="mailchimp" name="form" style="padding: 10px;" redirect="true">
-            <div class="u-form-email u-form-group u-form-group-1">
-              <label for="email-709a" class="u-form-control-hidden u-label"></label>
-              <input type="email" placeholder="가입할 이메일을 입력하시오." id="email-709a" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="" >
-            </div>
-            <div class="u-form-group u-form-group-2">
-              <label for="text-78fd" class="u-form-control-hidden u-label"></label>
-              <input type="text" placeholder="비밀번호를 입력하시오." id="text-78fd" name="pw" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-            </div>
-            <div class="u-form-group u-form-group-3">
-              <label for="text-cd27" class="u-form-control-hidden u-label"></label>
-              <input type="text" placeholder="비밀번호 확인을 입력하시오." id="text-cd27" name="pwCheck" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-            </div>
-            <div class="u-form-group u-form-name u-form-group-4">
-              <label for="name-ff45" class="u-form-control-hidden u-label"></label>
-              <input type="text" placeholder="닉네임을 입력하시오." id="name-ff45" name="nick" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
-            </div>
-            <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-5">
-              <label for="select-8ca5" class="u-form-control-hidden u-label"></label>
-              <div class="u-form-select-wrapper">
-                <select id="select-8ca5" name="areaInterest1" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="광주광역시">광주광역시</option>
-                  <option value="전라남도">전라남도</option>
-                  <option value="전라북도">전라북도</option>
-                </select>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
-              </div>
-            </div>
-            <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-6">
-              <label for="select-7483" class="u-form-control-hidden u-label"></label>
-              <div class="u-form-select-wrapper">
-                <select id="select-7483" name="areaInterest2" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="북구">북구</option>
-                  <option value="남구">남구</option>
-                  <option value="서구">서구</option>
-                </select>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
-              </div>
-            </div>
-            <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-7">
-              <label for="select-5d68" class="u-form-control-hidden u-label"></label>
-              <div class="u-form-select-wrapper">
-                <select id="select-5d68" name="areaInterest3" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
-                  <option value="용봉동">용봉동</option>
-                  <option value="일곡동">일곡동</option>
-                  <option value="삼각동">삼각동</option>
-                </select>
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
-              </div>
-            </div>
-            <div class="u-align-center u-form-group u-form-group-8">
-            	<input type="submit" value="회원가입" class="u-button-style u-btn u-btn-submit"></a>
-            </div>
-            <div class="u-form-send-message u-form-send-success"> Thank you! Your message has been sent. </div>
-            <div class="u-form-send-error u-form-send-message"> Unable to send your message. Please fix errors then try again. </div>
-            <input type="hidden" value="" name="recaptchaResponse">
-          </form>
-        </div>
-      </div>
-    </section>
-    
-    
+      </div></header> 
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4035"><div class="u-clearfix u-sheet u-sheet-1">
@@ -148,14 +77,14 @@
         </p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Template</span>
+      <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
+        <span>HTML Templates</span>
       </a>
       <p class="u-text">
         <span>created with</span>
       </p>
-      <a class="u-link" href="https://nicepage.com/html-website-builder" target="_blank">
-        <span>HTML Designer</span>
+      <a class="u-link" href="https://nicepage.com/" target="_blank">
+        <span>Offline Website Builder</span>
       </a>. 
     </section>
   </body>
