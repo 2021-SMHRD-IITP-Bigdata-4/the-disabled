@@ -114,11 +114,11 @@
                       </div>
                       <div class="u-form-group u-form-group-2">
                         <label for="text-b844" class="u-label">비밀번호</label>
-                        <input type="text" placeholder="비밀번호를 입력하시오." id="text-b844" name="text" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                        <input type="text" placeholder="비밀번호를 입력하시오." id="text-b844" name="pw" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                       </div>
                       <div class="u-form-group u-form-group-3">
                         <label for="text-4b1b" class="u-label">비밀번호 확인</label>
-                        <input type="text" placeholder="비밀번호를 입력하시오." id="text-4b1b" name="text-1" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                        <input type="text" placeholder="비밀번호를 입력하시오." id="text-4b1b" name="pw2" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                       </div>
                       <div class="u-form-group u-form-group-4">
                         <label for="text-e67b" class="u-label">닉네임</label>

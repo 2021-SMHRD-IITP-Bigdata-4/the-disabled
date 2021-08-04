@@ -28,8 +28,8 @@ public class JoinService extends HttpServlet {
 		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 		String nick = request.getParameter("nick");
-		String areaInterest = request.getParameter("areaInterest1") + request.getParameter("areaInterest2")
-				+ request.getParameter("areaInterest3");
+		String areaInterest = request.getParameter("si") + request.getParameter("gu")
+				+ request.getParameter("dong");
 
 		System.out.println(email);
 
