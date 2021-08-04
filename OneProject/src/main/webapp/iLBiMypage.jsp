@@ -1,6 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -30,14 +29,16 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.jsp" data-page-id="547204823">
+        <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.html" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
             <p class="u-text u-text-1"></p>
-            <p class="u-text u-text-2">알림어어어어어엉</p><span class="u-icon u-icon-1"><svg class="u-svg-content" viewBox="-43 0 512 512" style="width: 1em; height: 1em;"><path d="m413.417969 360.8125c-32.253907-27.265625-50.75-67.117188-50.75-109.335938v-59.476562c0-75.070312-55.765625-137.214844-128-147.625v-23.042969c0-11.796875-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.535156-21.332031 21.332031v23.042969c-72.257812 10.410156-128 72.554688-128 147.625v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.105469-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.246093-13.25-28.519531zm0 0"></path><path d="m213.332031 512c38.636719 0 70.957031-27.542969 78.378907-64h-156.757813c7.425781 36.457031 39.746094 64 78.378906 64zm0 0"></path></svg><img></span>
+            <p class="u-text u-text-2">
+              <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiAlrim.html" data-page-id="547204823">알림어어어어어엉</a>
+            </p><span class="u-file-icon u-icon u-icon-1"><img src="images/KakaoTalk_20210803_144115333.png" alt=""></span>
           </div>
         </div>
         <h1 class="u-text u-title u-text-3">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiMain.jsp" data-page-id="361022437">i​LBi</a>
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-2" href="iLBiMain.html" data-page-id="361022437">i​LBi</a>
         </h1>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -49,24 +50,46 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiService.jsp" style="padding: 10px 20px;">서비스 소개</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiUpload.jsp" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.jsp" style="padding: 10px 20px;">공지사항</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiSearch.jsp" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiService.jsp" style="padding: 10px 20px;">서비스 소개</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiUpload.jsp" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.jsp" style="padding: 10px 20px;">공지사항</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiSearch.jsp" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-2">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
 </li></ul>
               </div>
             </div>
@@ -74,74 +97,101 @@
           </div>
         </nav>
       </div></header>
-    <section class="u-clearfix u-section-1" id="sec-ed65">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h2 class="u-text u-text-default u-text-1">마이페이지<span style="font-weight: 700;"></span>
-        </h2>
-      </div>
-    </section>
-    <section class="u-align-center u-clearfix u-white u-section-2" id="sec-c6ad">
-      <div class="u-align-left u-clearfix u-sheet u-sheet-1">
-        <div class="u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-1">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-1">닉네임</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-2">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-2">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-3">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-3">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-4">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-4">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-5">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-5">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-6" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-6">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-6">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-7" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-7">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-7">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
-              </div>
-            </div>
-            <div class="u-border-3 u-border-palette-1-base u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-8" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-              <div class="u-container-layout u-similar-container u-container-layout-8">
-                <p class="u-large-text u-text u-text-default u-text-variant u-text-8">Sample large text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
+    <section class="u-align-center u-clearfix u-section-1" id="sec-2c27">
+      <div class="u-clearfix u-sheet u-valign-top u-sheet-1">
+        <div class="u-clearfix u-gutter-40 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
+                <div class="u-container-layout u-valign-top u-container-layout-1">
+                  <h2 class="u-text u-text-default u-text-1">마이페이지</h2>
+                  <div class="u-form u-form-1">
+                    <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form">
+                      <div class="u-form-group u-form-name u-form-group-1">
+                        <label for="name-208e" class="u-label">닉네임</label>
+                        <input type="text" placeholder="닉네임이 들어갑니다." id="name-208e" name="nickname" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                      </div>
+                      <div class="u-form-email u-form-group u-form-textarea u-form-group-2">
+                        <label for="textarea-31bd" class="u-label">이메일</label>
+                        <input rows="1" cols="50" id="textarea-31bd" name="email" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="이메일이 들어갑니다." type="email">
+                      </div>
+                      <div class="u-form-group u-form-group-3">
+                        <label for="text-b844" class="u-label">비밀번호</label>
+                        <input placeholder="비밀번호를 입력하시오." id="text-b844" name="pw" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" type="text">
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-4">
+                        <label for="textarea-2c6e" class="u-label">비밀번호 확인</label>
+                        <input cols="50" id="textarea-2c6e" name="pwaccount" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" placeholder="비밀번호를 확인하세요." type="text">
+                      </div>
+                      <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-5">
+                        <label for="select-1726" class="u-label">관심지역</label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-1726" name="select" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-6">
+                        <label for="select-ff69" class="u-form-control-hidden u-label"></label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-ff69" name="select-1" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-7">
+                        <label for="select-ad1d" class="u-form-control-hidden u-label"></label>
+                        <div class="u-form-select-wrapper">
+                          <select id="select-ad1d" name="select-2" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                            <option value="Item 1">Item 1</option>
+                            <option value="Item 2">Item 2</option>
+                            <option value="Item 3">Item 3</option>
+                          </select>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-8">
+                        <label for="textarea-5bcf" class="u-label">번호</label>
+                        <input rows="1" cols="50" id="textarea-5bcf" name="phone" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="'-'를 생략하세요." type="text">
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-9">
+                        <label for="textarea-f733" class="u-label">포인트</label>
+                        <input rows="1" cols="50" id="textarea-f733" name="point" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="50p" type="text">
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-10">
+                        <label for="textarea-bcd2" class="u-label">등급</label>
+                        <input rows="1" cols="50" id="textarea-bcd2" name="level" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="1등급" type="text">
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit">
+                        <a href="#" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-hover-palette-4-base u-radius-12 u-btn-1">수정사항 저장<br>
+                        </a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
+                      </div>
+                      <div class="u-form-send-message u-form-send-success">회원가입이 완료되었습니다!</div>
+                      <div class="u-form-send-error u-form-send-message">정보를 확인해주세요!</div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-3" id="sec-9d5b">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-border-3 u-border-grey-40 u-container-style u-group u-group-1">
-          <div class="u-container-layout u-valign-middle u-container-layout-1">
-            <h1 class="u-align-center u-text u-text-default u-text-1">It's That Design Feeling</h1>
-          </div>
-        </div>
-      </div>
-    </section>
+    
+    
     
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-4035"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">우린ㄴ<br>일비
-        </p>
+        <h5 class="u-text u-text-1">iLBi</h5>
+        <p class="u-small-text u-text u-text-variant u-text-2"> Sin Myeongjin |&nbsp;Kim Minjoong | Park Jihoon | Kim Yuri</p>
       </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
