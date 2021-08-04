@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
 	
 <!DOCTYPE html>
 <html style="font-size: 16px;">
@@ -30,16 +30,16 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
-        <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.html" data-page-id="547204823">
+        <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.jsp" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
             <p class="u-text u-text-1"></p>
             <p class="u-text u-text-2">
-              <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiAlrim.html" data-page-id="547204823">알림어어어어어엉</a>
+              <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1" href="iLBiAlrim.jsp" data-page-id="547204823">알림어어어어어엉</a>
             </p><span class="u-file-icon u-icon u-icon-1"><img src="images/KakaoTalk_20210803_144115333.png" alt=""></span>
           </div>
         </div>
         <h1 class="u-text u-title u-text-3">
-          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-2" href="iLBiMain.html" data-page-id="361022437">i​LBi</a>
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-2" href="iLBiMain.jsp" data-page-id="361022437">i​LBi</a>
         </h1>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
@@ -51,20 +51,20 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiService.jsp" style="padding: 10px 20px;">서비스 소개</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiUpload.jsp" style="padding: 10px 20px;">건물등록</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiSearch.jsp" style="padding: 10px 20px;">장애인 시설 검색</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiNotice.jsp" style="padding: 10px 20px;">공지사항</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiService.html" style="padding: 10px 20px;">서비스 소개</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiUpload.html" style="padding: 10px 20px;">건물등록</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiSearch.html" style="padding: 10px 20px;">장애인 시설 검색</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.html" style="padding: 10px 20px;">공지사항</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiService.jsp" style="padding: 10px 20px;">서비스 소개</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiUpload.jsp" style="padding: 10px 20px;">건물등록</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiSearch.jsp" style="padding: 10px 20px;">장애인 시설 검색</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiNotice.jsp" style="padding: 10px 20px;">공지사항</a>
 </li></ul>
               </div>
             </div>
@@ -81,16 +81,16 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
+            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.html" style="padding: 10px 20px;">로그인</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiJoin.html" style="padding: 10px 20px;">회원가입</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
 </li></ul>
               </div>
             </div>
@@ -101,7 +101,7 @@
     <section class="u-align-center u-clearfix u-section-1" id="sec-3e22">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-text u-text-default u-text-1">오늘의 관심지역 알림</h2>
-        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-1" data-href="iLBiBuilding.html" data-page-id="668910294">
+        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-1" data-href="iLBiBuilding.jsp" data-page-id="668910294">
           <div class="u-container-layout u-container-layout-1"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-11 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-36c5"></use></svg><svg class="u-svg-content" viewBox="-11 0 512 512" id="svg-36c5"><path d="m298.667969 426.667969c0 47.128906-38.207031 85.332031-85.335938 85.332031-47.128906 0-85.332031-38.203125-85.332031-85.332031 0-47.128907 38.203125-85.335938 85.332031-85.335938 47.128907 0 85.335938 38.207031 85.335938 85.335938zm0 0" fill="#ffa000"></path><path d="m362.835938 254.316406c-72.320313-10.328125-128.167969-72.515625-128.167969-147.648437 0-21.335938 4.5625-41.578125 12.648437-59.949219-10.921875-2.558594-22.269531-4.050781-33.984375-4.050781-82.34375 0-149.332031 66.984375-149.332031 149.332031v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.082031-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.269531-13.269531-28.542969-31.488282-26.644531-49.75-65.324218-50.5625-106.472656zm0 0" fill="#ffc107"></path><path d="m490.667969 106.667969c0 58.910156-47.757813 106.664062-106.667969 106.664062s-106.667969-47.753906-106.667969-106.664062c0-58.910157 47.757813-106.667969 106.667969-106.667969s106.667969 47.757812 106.667969 106.667969zm0 0" fill="#f44336"></path></svg></span>
             <img class="u-image u-image-default u-preserve-proportions u-image-1" src="images/-3.png" alt="" data-image-width="512" data-image-height="512">
             <h6 class="u-text u-text-default u-text-2">스타벅스</h6>
@@ -114,7 +114,7 @@
             <img class="u-image u-image-default u-preserve-proportions u-image-6" src="images/-1.png" alt="" data-image-width="512" data-image-height="512">
           </div>
         </div>
-        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-2" data-href="iLBiBuilding.html" data-page-id="668910294">
+        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-2" data-href="iLBiBuilding.jsp" data-page-id="668910294">
           <div class="u-container-layout u-container-layout-2"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-11 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-d1b1"></use></svg><svg class="u-svg-content" viewBox="-11 0 512 512" id="svg-d1b1"><path d="m298.667969 426.667969c0 47.128906-38.207031 85.332031-85.335938 85.332031-47.128906 0-85.332031-38.203125-85.332031-85.332031 0-47.128907 38.203125-85.335938 85.332031-85.335938 47.128907 0 85.335938 38.207031 85.335938 85.335938zm0 0" fill="#ffa000"></path><path d="m362.835938 254.316406c-72.320313-10.328125-128.167969-72.515625-128.167969-147.648437 0-21.335938 4.5625-41.578125 12.648437-59.949219-10.921875-2.558594-22.269531-4.050781-33.984375-4.050781-82.34375 0-149.332031 66.984375-149.332031 149.332031v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.082031-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.269531-13.269531-28.542969-31.488282-26.644531-49.75-65.324218-50.5625-106.472656zm0 0" fill="#ffc107"></path><path d="m490.667969 106.667969c0 58.910156-47.757813 106.664062-106.667969 106.664062s-106.667969-47.753906-106.667969-106.664062c0-58.910157 47.757813-106.667969 106.667969-106.667969s106.667969 47.757812 106.667969 106.667969zm0 0" fill="#f44336"></path></svg></span>
             <img class="u-image u-image-default u-preserve-proportions u-image-7" src="images/-3.png" alt="" data-image-width="512" data-image-height="512">
             <h6 class="u-text u-text-default u-text-5">스타벅스</h6>
@@ -127,7 +127,7 @@
             <img class="u-image u-image-default u-preserve-proportions u-image-12" src="images/-1.png" alt="" data-image-width="512" data-image-height="512">
           </div>
         </div>
-        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-3" data-href="iLBiBuilding.html" data-page-id="668910294">
+        <div class="u-border-3 u-border-grey-5 u-container-style u-grey-5 u-group u-radius-11 u-shape-round u-group-3" data-href="iLBiBuilding.jsp" data-page-id="668910294">
           <div class="u-container-layout u-container-layout-3"><span class="u-icon u-icon-circle u-text-palette-1-base u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="-11 0 512 512" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-e41d"></use></svg><svg class="u-svg-content" viewBox="-11 0 512 512" id="svg-e41d"><path d="m298.667969 426.667969c0 47.128906-38.207031 85.332031-85.335938 85.332031-47.128906 0-85.332031-38.203125-85.332031-85.332031 0-47.128907 38.203125-85.335938 85.332031-85.335938 47.128907 0 85.335938 38.207031 85.335938 85.335938zm0 0" fill="#ffa000"></path><path d="m362.835938 254.316406c-72.320313-10.328125-128.167969-72.515625-128.167969-147.648437 0-21.335938 4.5625-41.578125 12.648437-59.949219-10.921875-2.558594-22.269531-4.050781-33.984375-4.050781-82.34375 0-149.332031 66.984375-149.332031 149.332031v59.476562c0 42.21875-18.496094 82.070313-50.945312 109.503907-8.296876 7.082031-13.054688 17.429687-13.054688 28.351562 0 20.589844 16.746094 37.335938 37.332031 37.335938h352c20.589844 0 37.335938-16.746094 37.335938-37.335938 0-10.921875-4.757813-21.269531-13.269531-28.542969-31.488282-26.644531-49.75-65.324218-50.5625-106.472656zm0 0" fill="#ffc107"></path><path d="m490.667969 106.667969c0 58.910156-47.757813 106.664062-106.667969 106.664062s-106.667969-47.753906-106.667969-106.664062c0-58.910157 47.757813-106.667969 106.667969-106.667969s106.667969 47.757812 106.667969 106.667969zm0 0" fill="#f44336"></path></svg></span>
             <img class="u-image u-image-default u-preserve-proportions u-image-13" src="images/-3.png" alt="" data-image-width="512" data-image-height="512">
             <h6 class="u-text u-text-default u-text-8">스타벅스</h6>

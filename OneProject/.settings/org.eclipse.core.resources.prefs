@@ -1,6 +1,15 @@
 eclipse.preferences.version=1
+encoding//src/main/webapp/iLBiAlrim.jsp=UTF-8
 encoding//src/main/webapp/iLBiAlrimClick.jsp=UTF-8
+encoding//src/main/webapp/iLBiBuilding.jsp=UTF-8
 encoding//src/main/webapp/iLBiJoin.jsp=UTF-8
+encoding//src/main/webapp/iLBiLogin.jsp=UTF-8
+encoding//src/main/webapp/iLBiMain.jsp=UTF-8
+encoding//src/main/webapp/iLBiMypage.jsp=UTF-8
 encoding//src/main/webapp/iLBiNotice.jsp=UTF-8
 encoding//src/main/webapp/iLBiNoticeClick.jsp=UTF-8
+encoding//src/main/webapp/iLBiSearch.jsp=UTF-8
+encoding//src/main/webapp/iLBiService.jsp=UTF-8
+encoding//src/main/webapp/iLBiSupport.jsp=UTF-8
 encoding//src/main/webapp/iLBiSupportClick.jsp=UTF-8
+encoding//src/main/webapp/iLBiUpload.jsp=UTF-8
