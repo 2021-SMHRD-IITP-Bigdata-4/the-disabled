@@ -256,7 +256,7 @@
         </div>
         <div class="u-border-1 u-border-grey-25 u-radius-5 u-shape u-shape-round u-shape-1"></div>
         <div class="u-border-1 u-border-grey-25 u-radius-5 u-shape u-shape-round u-shape-2"></div>
-        <a href="https://nicepage.com/k/loans-website-templates" class="u-border-none u-btn u-button-style u-custom-color-1 u-hover-palette-4-base u-btn-1">등록하기</a>
+        <a href="iLBiMain.jsp" data-page-id="361022437" class="u-border-none u-btn u-button-style u-custom-color-1 u-hover-palette-4-base u-btn-1">등록하기</a>
       </div>
     </section>
     

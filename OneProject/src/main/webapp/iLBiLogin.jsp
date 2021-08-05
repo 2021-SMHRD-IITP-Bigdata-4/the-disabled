@@ -106,7 +106,7 @@
                 <div class="u-container-layout u-container-layout-1">
                   <h2 class="u-text u-text-default u-text-1">로그인</h2>
                   <div class="u-form u-form-1">
-                    <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form">
+                    <form action="iLBiMain" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form" redirect="true">
                       <div class="u-form-email u-form-group">
                         <label for="name-daf4" class="u-label">이메일</label>
                         <input type="email" placeholder="가입할 이메일을 입력하시오." id="name-daf4" name="email" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" required="required">
