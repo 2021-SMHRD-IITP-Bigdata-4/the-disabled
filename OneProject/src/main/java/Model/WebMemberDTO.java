@@ -18,7 +18,6 @@ public class WebMemberDTO {
 	}
 
 	public WebMemberDTO(String email, String pw, String nick, String si, String gu, String dong) {
-		super();
 		this.email = email;
 		this.pw = pw;
 		this.nick = nick;
