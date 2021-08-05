@@ -98,7 +98,8 @@ public class WebMemberDAO {
 		conn();
 		
 		try {
-			String sql = "update ilbi_member set mem_password = ?, mem_nick = ?, mem_zone=?, where mem_id = ?";
+			String sql = "update ilbi_member set mem_password = ?, mem_nick = ?, mem_zone=? where mem_id = ?";
+
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getPw());
 			psmt.setString(2, dto.getNick());

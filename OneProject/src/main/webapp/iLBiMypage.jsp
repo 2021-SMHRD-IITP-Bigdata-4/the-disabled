@@ -147,9 +147,9 @@
                         <label for="select-1726" class="u-label">관심지역</label>
                         <div class="u-form-select-wrapper">
                           <select id="select-1726" name="si" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
-                            <option value="Item 1">Item 1</option>
-                            <option value="Item 2">Item 2</option>
-                            <option value="Item 3">Item 3</option>
+                            <option value="광주광역시">광주광역시</option>
+                            <option value="전라남도">전라남도</option>
+                            <option value="전라북도">전라북도</option>
                           </select>
                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                         </div>
@@ -158,9 +158,11 @@
                         <label for="select-ff69" class="u-form-control-hidden u-label"></label>
                         <div class="u-form-select-wrapper">
                           <select id="select-ff69" name="gu" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
-                            <option value="Item 1">Item 1</option>
-                            <option value="Item 2">Item 2</option>
-                            <option value="Item 3">Item 3</option>
+                            <option value="동구">북구</option>
+                            <option value="서구">서구</option>
+                            <option value="북구">동구</option>
+                            <option value="북구">남구</option>
+                            <option value="북구">광산구</option>
                           </select>
                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                         </div>
@@ -169,9 +171,13 @@
                         <label for="select-ad1d" class="u-form-control-hidden u-label"></label>
                         <div class="u-form-select-wrapper">
                           <select id="select-ad1d" name="dong" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
-                            <option value="Item 1">Item 1</option>
-                            <option value="Item 2">Item 2</option>
-                            <option value="Item 3">Item 3</option>
+                            <option value="중흥동">중흥동</option>
+                            <option value="중앙동">중앙동</option>
+                            <option value="임동">임동</option>
+                            <option value="운암동">운암동</option>
+                            <option value="동림동">동림동</option>
+                            <option value="우산동">우산동</option>
+                            <option value="두암동">두암동</option>
                           </select>
                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                         </div>
