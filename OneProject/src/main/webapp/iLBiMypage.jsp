@@ -121,27 +121,32 @@
                 <div class="u-container-layout u-valign-top u-container-layout-1">
                   <h2 class="u-text u-text-default u-text-1">마이페이지</h2>
                   <div class="u-form u-form-1">
-                    <form action="iLBiMain" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form" redirect="true">
+
+
+                    <form action="UpdateService" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form" redirect="true">
+                      <div class="u-form-email u-form-group u-form-textarea u-form-group-2">
+                        <label for="textarea-31bd" class="u-label">이메일 : <%= info.getEmail() %></label>
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-9">
+                        <label for="textarea-f733" class="u-label">포인트 : <%= info.getPoint() %></label>
+                      </div>
                       <div class="u-form-group u-form-name u-form-group-1">
                         <label for="name-208e" class="u-label">닉네임</label>
-                        <input type="text" placeholder="닉네임이 들어갑니다." id="name-208e" name="nickname" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                        <input type="text" placeholder="닉네임이 들어갑니다." id="name-208e" name="nick" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                       </div>
-                      <div class="u-form-email u-form-group u-form-textarea u-form-group-2">
-                        <label for="textarea-31bd" class="u-label">이메일</label>
-                        <input rows="1" cols="50" id="textarea-31bd" name="email" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="이메일이 들어갑니다." type="email">
-                      </div>
+
                       <div class="u-form-group u-form-group-3">
                         <label for="text-b844" class="u-label">비밀번호</label>
                         <input placeholder="비밀번호를 입력하시오." id="text-b844" name="pw" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" type="text">
                       </div>
                       <div class="u-form-group u-form-textarea u-form-group-4">
                         <label for="textarea-2c6e" class="u-label">비밀번호 확인</label>
-                        <input cols="50" id="textarea-2c6e" name="pwaccount" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" placeholder="비밀번호를 확인하세요." type="text">
+                        <input cols="50" id="textarea-2c6e" name="pwcheck" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" placeholder="비밀번호를 확인하세요." type="text">
                       </div>
                       <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-5">
                         <label for="select-1726" class="u-label">관심지역</label>
                         <div class="u-form-select-wrapper">
-                          <select id="select-1726" name="select" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                          <select id="select-1726" name="si" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                             <option value="Item 1">Item 1</option>
                             <option value="Item 2">Item 2</option>
                             <option value="Item 3">Item 3</option>
@@ -152,7 +157,7 @@
                       <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-6">
                         <label for="select-ff69" class="u-form-control-hidden u-label"></label>
                         <div class="u-form-select-wrapper">
-                          <select id="select-ff69" name="select-1" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                          <select id="select-ff69" name="gu" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                             <option value="Item 1">Item 1</option>
                             <option value="Item 2">Item 2</option>
                             <option value="Item 3">Item 3</option>
@@ -163,7 +168,7 @@
                       <div class="u-form-group u-form-partition-factor-3 u-form-select u-form-group-7">
                         <label for="select-ad1d" class="u-form-control-hidden u-label"></label>
                         <div class="u-form-select-wrapper">
-                          <select id="select-ad1d" name="select-2" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                          <select id="select-ad1d" name="dong" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                             <option value="Item 1">Item 1</option>
                             <option value="Item 2">Item 2</option>
                             <option value="Item 3">Item 3</option>
@@ -171,26 +176,15 @@
                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                         </div>
                       </div>
-                      <div class="u-form-group u-form-textarea u-form-group-8">
-                        <label for="textarea-5bcf" class="u-label">번호</label>
-                        <input rows="1" cols="50" id="textarea-5bcf" name="phone" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="'-'를 생략하세요." type="text">
-                      </div>
-                      <div class="u-form-group u-form-textarea u-form-group-9">
-                        <label for="textarea-f733" class="u-label">포인트</label>
-                        <input rows="1" cols="50" id="textarea-f733" name="point" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="50p" type="text">
-                      </div>
-                      <div class="u-form-group u-form-textarea u-form-group-10">
-                        <label for="textarea-bcd2" class="u-label">등급</label>
-                        <input rows="1" cols="50" id="textarea-bcd2" name="level" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="1등급" type="text">
-                      </div>
                       <div class="u-align-center u-form-group u-form-submit">
                         <a href="#" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-hover-palette-4-base u-radius-12 u-btn-1">수정사항 저장<br>
                         </a>
-                        <input type="submit" value="submit" class="u-form-control-hidden">
+                        <input type="submit" value="정보수정" class="u-form-control-hidden">
                       </div>
                       <div class="u-form-send-message u-form-send-success">회원가입이 완료되었습니다!</div>
                       <div class="u-form-send-error u-form-send-message">정보를 확인해주세요!</div>
                       <input type="hidden" value="" name="recaptchaResponse">
+                      
                     </form>
                   </div>
                 </div>

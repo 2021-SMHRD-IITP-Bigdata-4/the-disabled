@@ -29,6 +29,8 @@ public class LoginService extends HttpServlet {
 		WebMemberDTO dto = new WebMemberDTO(email, pw);
 		WebMemberDTO loginDto = dao.login(dto);
 
+		
+		
 		System.out.println(email);
 		System.out.println(loginDto);
 		

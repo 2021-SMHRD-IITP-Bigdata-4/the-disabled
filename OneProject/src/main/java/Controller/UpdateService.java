@@ -29,12 +29,13 @@ public class UpdateService extends HttpServlet {
 		request.setCharacterEncoding("EUC-KR");
 		String email = info.getEmail();
 		String pw = request.getParameter("pw");
-		String tel = request.getParameter("tel");
-		String addr = request.getParameter("addr");
+		String nick = request.getParameter("nick");
+		String areaInterest = request.getParameter("si") + request.getParameter("gu")
+				+ request.getParameter("dong");
 		
 		// 연결 명령 문닫기
 		
-		WebMemberDTO dto = new WebMemberDTO(email, pw, tel, addr);
+		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);
 		WebMemberDAO dao = new WebMemberDAO();
 		int cnt = dao.update(dto);
 		
@@ -46,6 +47,6 @@ public class UpdateService extends HttpServlet {
 		}else {
 			System.out.println("업데이트실패!");
 		}
-		response.sendRedirect("main.jsp");	}
+		response.sendRedirect("iLBiMain.jsp");	}
 
 }

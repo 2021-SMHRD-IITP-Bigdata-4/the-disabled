@@ -49,7 +49,7 @@ public class WebMemberDAO {
 	public int join(WebMemberDTO dto) {
 		conn();
 		try {
-			String sql = "insert into ilbi_member values(mem_no_seq.nextval,?,?,?,?)";
+			String sql = "insert into ilbi_member values(mem_no_seq.nextval,?,?,?,?,100)";
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getEmail());
 			psmt.setString(2, dto.getPw());
@@ -83,7 +83,8 @@ public class WebMemberDAO {
 				String pw = rs.getString(3);
 				String nick = rs.getString(4);
 				String areaInterest = rs.getString(5);
-				loginDto = new WebMemberDTO(email, pw, nick, areaInterest);
+				int point = rs.getInt(6);
+				loginDto = new WebMemberDTO(email, pw, nick, areaInterest, point);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -114,4 +115,5 @@ public class WebMemberDAO {
 		return cnt;		
 	}
 	
+
 }
