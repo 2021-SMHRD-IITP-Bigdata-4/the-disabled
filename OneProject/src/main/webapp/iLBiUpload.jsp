@@ -119,25 +119,45 @@
         </div>
       </div>
     </section>
-    <section class="u-clearfix u-section-2" id="sec-c9c8">
+    <section class="u-align-center u-clearfix u-section-2" id="sec-7142">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-text u-text-default u-text-1">건물명</p>
-        <div class="u-border-1 u-border-grey-40 u-radius-5 u-shape u-shape-round u-shape-1"></div>
-        <p class="u-text u-text-default u-text-2">주소</p>
-        <div class="u-border-1 u-border-grey-40 u-container-style u-group u-radius-5 u-shape-round u-group-1">
-          <div class="u-container-layout u-container-layout-1">
-            <p class="u-text u-text-default u-text-3">드롭다운 들어갈 자리</p>
+        <div class="u-clearfix u-gutter-40 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <div class="u-form u-form-1">
+                    <form action="iLBiBuilding" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form" redirect="true">
+                      <div class="u-form-group u-form-group-1">
+                        <label for="text-b844" class="u-label">건물명</label>
+                        <input type="text" placeholder="매장 이름을 입력하시오." id="text-b844" name="building" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                      </div>
+                      <div class="u-form-group u-form-group-2">
+                        <label for="text-4b1b" class="u-label">주소</label>
+                        <input type="text" placeholder="주소를 입력하시오." id="text-4b1b" name="building-1" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                      </div>
+                      <div class="u-form-group u-form-group-3">
+                        <label for="text-e67b" class="u-label">편의시설</label>
+                        <input type="text" placeholder="checkbox" id="text-e67b" name="building-2" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                      </div>
+                      <div class="u-form-group u-form-group-4">
+                        <label for="text-9f76" class="u-label">입점매장</label>
+                        <input type="text" placeholder="건물에 위치한 매장을 쓰시오." id="text-9f76" name="text" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                      </div>
+                      <div class="u-align-center u-form-group u-form-submit">
+                        <a href="#" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-hover-palette-4-base u-radius-12 u-btn-1">등록하기</a>
+                        <input type="submit" value="submit" class="u-form-control-hidden">
+                      </div>
+                      <div class="u-form-send-message u-form-send-success">회원가입이 완료되었습니다!</div>
+                      <div class="u-form-send-error u-form-send-message">정보를 확인해주세요!</div>
+                      <input type="hidden" value="" name="recaptchaResponse">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <p class="u-text u-text-default u-text-4">편의시설</p>
-        <div class="u-border-1 u-border-grey-40 u-container-style u-group u-radius-5 u-shape-round u-group-2">
-          <div class="u-container-layout u-container-layout-2">
-            <p class="u-text u-text-default u-text-5">체크박스</p>
-          </div>
-        </div>
-        <p class="u-text u-text-default u-text-6">입점 매장</p>
-        <div class="u-border-1 u-border-grey-40 u-radius-5 u-shape u-shape-round u-shape-2"></div>
-        <a href="iLBiBuilding.jsp" data-page-id="668910294" class="u-border-none u-btn u-button-style u-custom-color-1 u-btn-1">등록하기</a>
       </div>
     </section>
     

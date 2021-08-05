@@ -135,44 +135,37 @@
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>서비스명
-                <br><div>서비스 이름이 짜잔</div>
               </li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>기관명
-                <br><div>기관 이름이 짜잔</div>
               </li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>사업 기간
-                <br><div>사업 기관이 짜잔</div>
               </li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>사업 목적
-                <br><div>사업 목적이 짜잔</div>
               </li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>지원 대상
-                <br><div>지원 대상이 짜잔</div>
               </li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
                 </div>
               </li>
-              <li>지원 내용
-                <br><div>지원 내용이 짜잔</div>
-              </li>
+              <li>지원 내용</li>
               <li>
                 <div class="u-list-icon u-text-custom-color-1">
                   <svg class="u-svg-content" viewBox="0 0 512 512" id="svg-9d2f"><path d="m202.6 478-202.6-186.6 70.5-76.6 121.5 111.9 239.4-292.7 80.6 65.9z" fill="currentColor"></path></svg>
-                </div>링크<br><div>링크가 짜잔</div>
+                </div>링크
               </li>
             </ul>
           </div>

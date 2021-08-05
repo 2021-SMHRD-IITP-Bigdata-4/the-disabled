@@ -48,8 +48,8 @@ public class JoinService extends HttpServlet {
 			System.out.println("¤µ¤½");
 			response.sendRedirect("iLBiNotice.jsp");
 		}
-	
-
+		
+		
 	}
 
 }

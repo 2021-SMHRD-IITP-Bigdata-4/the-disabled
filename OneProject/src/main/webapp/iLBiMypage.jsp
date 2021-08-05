@@ -106,23 +106,18 @@
                 <div class="u-container-layout u-valign-top u-container-layout-1">
                   <h2 class="u-text u-text-default u-text-1">마이페이지</h2>
                   <div class="u-form u-form-1">
-                    <form action="#" method="POST" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form">
-                      <div class="u-form-email u-form-group u-form-textarea u-form-group-2">
-                        <label for="textarea-31bd" class="u-label">이메일<br>(세션들어갈곳)</label>
-                        
-                      </div>
-                      <div class="u-form-group u-form-textarea u-form-group-9">
-                        <label for="textarea-f733" class="u-label">포인트<br>(포인트 들어갈곳)</label>
-                      </div>
-                      
+                    <form action="iLBiMain" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 0;" source="custom" name="form" redirect="true">
                       <div class="u-form-group u-form-name u-form-group-1">
                         <label for="name-208e" class="u-label">닉네임</label>
-                        <input type="text" placeholder="바꿀 닉네임이 들어갑니다." id="name-208e" name="nickname" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
+                        <input type="text" placeholder="닉네임이 들어갑니다." id="name-208e" name="nickname" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white">
                       </div>
-
+                      <div class="u-form-email u-form-group u-form-textarea u-form-group-2">
+                        <label for="textarea-31bd" class="u-label">이메일</label>
+                        <input rows="1" cols="50" id="textarea-31bd" name="email" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="이메일이 들어갑니다." type="email">
+                      </div>
                       <div class="u-form-group u-form-group-3">
                         <label for="text-b844" class="u-label">비밀번호</label>
-                        <input placeholder="바꿀 비밀번호를 입력하시오." id="text-b844" name="pw" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" type="text">
+                        <input placeholder="비밀번호를 입력하시오." id="text-b844" name="pw" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" rows="1" type="text">
                       </div>
                       <div class="u-form-group u-form-textarea u-form-group-4">
                         <label for="textarea-2c6e" class="u-label">비밀번호 확인</label>
@@ -161,7 +156,18 @@
                           <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
                         </div>
                       </div>
-
+                      <div class="u-form-group u-form-textarea u-form-group-8">
+                        <label for="textarea-5bcf" class="u-label">번호</label>
+                        <input rows="1" cols="50" id="textarea-5bcf" name="phone" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="'-'를 생략하세요." type="text">
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-9">
+                        <label for="textarea-f733" class="u-label">포인트</label>
+                        <input rows="1" cols="50" id="textarea-f733" name="point" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="50p" type="text">
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-10">
+                        <label for="textarea-bcd2" class="u-label">등급</label>
+                        <input rows="1" cols="50" id="textarea-bcd2" name="level" class="u-border-1 u-border-grey-40 u-input u-input-rectangle u-white" placeholder="1등급" type="text">
+                      </div>
                       <div class="u-align-center u-form-group u-form-submit">
                         <a href="#" class="u-active-palette-1-light-2 u-border-none u-btn u-btn-round u-btn-submit u-button-style u-custom-color-1 u-hover-palette-4-base u-radius-12 u-btn-1">수정사항 저장<br>
                         </a>
