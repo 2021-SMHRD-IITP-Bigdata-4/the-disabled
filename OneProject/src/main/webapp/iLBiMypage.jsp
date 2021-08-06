@@ -130,6 +130,9 @@
                         <label for="textarea-31bd" class="u-label">이메일 : <%= info.getEmail() %></label>
                       </div>
                       <div class="u-form-group u-form-textarea u-form-group-9">
+                        <label for="textarea-f733" class="u-label">관심지역 : <%= info.getSi() %> <%= info.getGu() %> <%= info.getDong() %></label>
+                      </div>
+                      <div class="u-form-group u-form-textarea u-form-group-9">
                         <label for="textarea-f733" class="u-label">포인트 : <%= info.getPoint() %></label>
                       </div>
                       <div class="u-form-group u-form-name u-form-group-1">

@@ -28,13 +28,15 @@ public class JoinService extends HttpServlet {
 		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 		String nick = request.getParameter("nick");
-		String areaInterest = request.getParameter("si") + request.getParameter("gu")
-				+ request.getParameter("dong");
+		String si = request.getParameter("si");
+		String gu = request.getParameter("gu");
+		String dong = request.getParameter("dong");
 
+		
 		System.out.println(email);
 
 		WebMemberDAO dao = new WebMemberDAO();
-		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);
+		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, si, gu, dong);
 
 		int cnt = dao.join(dto);
 		System.out.println(cnt);

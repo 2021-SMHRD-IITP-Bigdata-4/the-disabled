@@ -30,12 +30,14 @@ public class UpdateService extends HttpServlet {
 		String email = info.getEmail();
 		String pw = request.getParameter("pw");
 		String nick = request.getParameter("nick");
-		String areaInterest = request.getParameter("si") + request.getParameter("gu")
-				+ request.getParameter("dong");
+		String si = request.getParameter("si");
+		String gu = request.getParameter("gu");
+		String dong = request.getParameter("dong");
 		
+
 		// 연결 명령 문닫기
 		
-		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, areaInterest);
+		WebMemberDTO dto = new WebMemberDTO(email, pw, nick, si, gu, dong);
 		WebMemberDAO dao = new WebMemberDAO();
 		int cnt = dao.update(dto);
 		

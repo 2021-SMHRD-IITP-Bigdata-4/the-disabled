@@ -49,12 +49,14 @@ public class WebMemberDAO {
 	public int join(WebMemberDTO dto) {
 		conn();
 		try {
-			String sql = "insert into ilbi_member values(mem_no_seq.nextval,?,?,?,?,100)";
+			String sql = "insert into ilbi_member values(mem_no_seq.nextval,?,?,?,100,?,?,?)";
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getEmail());
 			psmt.setString(2, dto.getPw());
 			psmt.setString(3, dto.getNick());
-			psmt.setString(4, dto.getAreaInterest());
+			psmt.setString(4, dto.getSi());
+			psmt.setString(5, dto.getGu());
+			psmt.setString(6, dto.getDong());
 
 			cnt = psmt.executeUpdate();
 
@@ -82,9 +84,11 @@ public class WebMemberDAO {
 				String email = rs.getString(2);
 				String pw = rs.getString(3);
 				String nick = rs.getString(4);
-				String areaInterest = rs.getString(5);
-				int point = rs.getInt(6);
-				loginDto = new WebMemberDTO(email, pw, nick, areaInterest, point);
+				int point = rs.getInt(5);
+				String si = rs.getString(6);
+				String gu = rs.getString(7);
+				String dong = rs.getString(8);
+				loginDto = new WebMemberDTO(email, pw, nick, si, gu, dong , point);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
@@ -98,13 +102,15 @@ public class WebMemberDAO {
 		conn();
 		
 		try {
-			String sql = "update ilbi_member set mem_password = ?, mem_nick = ?, mem_zone=? where mem_id = ?";
+			String sql = "update ilbi_member set mem_password = ?, mem_nick = ?, mem_si=?, mem_gu=?, mem_dong=? where mem_id = ?";
 
 			psmt = conn.prepareStatement(sql);
 			psmt.setString(1, dto.getPw());
 			psmt.setString(2, dto.getNick());
-			psmt.setString(3, dto.getAreaInterest());
-			psmt.setString(4, dto.getEmail());
+			psmt.setString(3, dto.getSi());
+			psmt.setString(4, dto.getGu());
+			psmt.setString(5, dto.getDong());
+			psmt.setString(6, dto.getEmail());
 			cnt = psmt.executeUpdate();
 			
 		} catch (SQLException e) {
