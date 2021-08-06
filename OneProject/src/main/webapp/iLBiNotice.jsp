@@ -1,7 +1,7 @@
-<%@page import="Model.WebMemberDAO"%>
-<%@page import="java.util.ArrayList"%>
 <%@page import="Model.WebMemberDTO"%>
-
+<%@page import="Model.WebNoticeDTO"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="Model.WebNoticeDAO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -20,7 +20,11 @@
     <meta name="generator" content="Nicepage 3.21.3, nicepage.com">
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     
-    
+    <% WebNoticeDAO dao = new WebNoticeDAO();
+   
+    	ArrayList<WebNoticeDTO> list = dao.selectAll();
+    	WebMemberDTO info = (WebMemberDTO)session.getAttribute("info");
+    %>
     
     
     <script type="application/ld+json">{
@@ -33,9 +37,6 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
-            <%
-		WebMemberDTO info = (WebMemberDTO)session.getAttribute("info");
-	%>
         <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.jsp" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
             <p class="u-text u-text-1"></p>
@@ -87,18 +88,9 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-                        <ul class="u-nav u-unstyled u-nav-3">           
-            
-            <!-- 로그인시 개인정보수정 출력 -->
-			<%if(info != null){ %>
-				<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiMypage.jsp" style="padding: 10px 0px;">개인정보수정</a></li>
-				<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="LogoutService" style="padding: 10px 10px;">로그아웃</a></li>
-				
-			<%}else{ %>
-         	   <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a></li>
-         	   <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a></li>
-			<% }%>
-			</ul>
+            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
+</li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
@@ -133,39 +125,18 @@
               </tr>
             </thead>
             <tbody class="u-table-body">
+            <%if(list!=null){ %>
+            	<%for(int i = 0; i<list.size(); i++){%>
               <tr style="height: 25px;">
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=i+1%></td>
                 <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
-                  <a href="iLBiNoticeClick.jsp" data-page-id="2850911576" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1">공지사항1<span class="u-text-black"></span>
+                  <a href="iLBiNoticeClick.jsp?num=<%=list.get(i).getNotice_no() %>" data-page-id="2850911576" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-1"><%=list.get(i).getNotice_name()%><span class="u-text-black"></span>
                   </a>
                 </td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">신명진</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">21.07.19</td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=list.get(i).getMem_no() %></td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=list.get(i).getNotice_date()%></td>
               </tr>
-              <tr style="height: 47px;">
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">2</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
-                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-2" href="iLBiNoticeClick.jsp" data-page-id="2850911576">공지사항2</a>
-                </td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">김민중</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">21.07.21</td>
-              </tr>
-              <tr style="height: 46px;">
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">3</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
-                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-black u-btn-3" href="iLBiNoticeClick.jsp" data-page-id="2850911576">공지사항3</a>
-                </td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">박지훈</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">21.07.30</td>
-              </tr>
-              <tr style="height: 46px;">
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">4</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
-                  <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-body-color u-btn-4" href="iLBiNoticeClick.jsp" data-page-id="2850911576">공지사항4</a>
-                </td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">김유리</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">21.08.03</td>
-              </tr>
+              <%} } %>
             </tbody>
           </table>
         </div>

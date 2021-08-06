@@ -1,7 +1,7 @@
 <%@page import="Model.WebMemberDAO"%>
-<%@page import="java.util.ArrayList"%>
 <%@page import="Model.WebMemberDTO"%>
-
+<%@page import="Model.WebNoticeDTO"%>
+<%@page import="Model.WebNoticeDAO"%>
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html>
@@ -33,9 +33,13 @@
     <meta property="og:type" content="website">
   </head>
   <body class="u-body"><header class="u-clearfix u-header u-header" id="sec-0b40"><div class="u-clearfix u-sheet u-sheet-1">
-            <%
-		WebMemberDTO info = (WebMemberDTO)session.getAttribute("info");
-	%>
+        <%
+        String num = request.getParameter("num");
+        WebNoticeDAO dao = new WebNoticeDAO();
+        WebNoticeDTO sdto = dao.selectOne(num);
+        System.out.println(num);
+        WebMemberDTO info = (WebMemberDTO)session.getAttribute("info");
+        %>
         <div class="u-container-style u-custom-color-1 u-group u-group-1" data-href="iLBiAlrim.jsp" data-page-id="547204823">
           <div class="u-container-layout u-container-layout-1">
             <p class="u-text u-text-1"></p>
@@ -87,18 +91,9 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-3">           
-            
-            <!-- 로그인시 개인정보수정 출력 -->
-			<%if(info != null){ %>
-				<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiMypage.jsp" style="padding: 10px 0px;">개인정보수정</a></li>
-				<li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="LogoutService" style="padding: 10px 10px;">로그아웃</a></li>
-				
-			<%}else{ %>
-         	   <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a></li>
-         	   <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a></li>
-			<% }%>
-			</ul>
+            <ul class="u-nav u-unstyled u-nav-3"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiLogin.jsp" style="padding: 10px 20px;">로그인</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-dark-1" href="iLBiJoin.jsp" style="padding: 10px 20px;">회원가입</a>
+</li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
@@ -129,24 +124,26 @@
                 <th class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-border-no-top u-table-cell">번호</th>
                 <th class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-border-no-top u-table-cell">제목</th>
                 <th class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-border-no-top u-table-cell">작성자</th>
-                <th class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-border-no-top u-table-cell">작성일지</th>
+                <th class="u-border-2 u-border-grey-10 u-border-no-left u-border-no-right u-border-no-top u-table-cell">작성일자</th>
               </tr>
             </thead>
             <tbody class="u-table-body">
               <tr style="height: 25px;">
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">1</td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=num %></td>
                 <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">
-                  <a href="iLBiNotice.jsp" data-page-id="3083403229" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">공지사항1</a>
+                  <a href="iLBiNotice.jsp" data-page-id="3083403229" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1"><%=sdto.getNotice_name() %></a>
                 </td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">신명진</td>
-                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell">21.07.19</td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=sdto.getMem_no() %></td>
+                <td class="u-border-1 u-border-grey-40 u-border-no-left u-border-no-right u-table-cell"><%=sdto.getNotice_date() %></td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="u-container-style u-group u-shape-rectangle u-group-1">
           <div class="u-container-layout u-container-layout-1">
-            <p class="u-text u-text-2">공지사항 내용이 들어갑니다.<br>어떤게 개편되었는지<br>뭐가 바뀌었는지<br>대충 블라블라
+            <p class="u-text u-text-2"><%if(sdto.getNotice_con()!=null){ %>
+            <img src = "./img/<%=sdto.getNotice_con()%>">
+            <%} %>
             </p>
           </div>
         </div>
